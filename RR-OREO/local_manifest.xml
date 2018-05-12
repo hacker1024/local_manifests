@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="bitbucket" fetch="https://bitbucket.org/" />
+
+  <project name="Xiaomi-msm8996/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="oreo-mr1-release_non-treble" />
+  <project name="Xiaomi-msm8996/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="oreo-mr1-release_non-treble" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+
+  <!-- Replace default toolchain with the UBER toolchain. Leave out if you don't want this. -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project name="matthewdalex/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="bitbucket" revision="master"/>
+  <project name="matthewdalex/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master"/>
+  <project name="matthewdalex/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master"/>
+</manifest>
