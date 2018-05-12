@@ -2,8 +2,8 @@
 <manifest>
   <remote name="bitbucket" fetch="https://bitbucket.org/" />
 
-  <project name="Xiaomi-msm8996/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="oreo-mr1-release_non-treble" />
-  <project name="Xiaomi-msm8996/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="oreo-mr1-release_non-treble" />
+  <project name="hacker1024/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="rr_non-treble" />
+  <project name="hacker1024/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="rr_non-treble" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
