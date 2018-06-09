@@ -2,11 +2,16 @@
 <manifest>
   <remote name="bitbucket" fetch="https://bitbucket.org/" />
 
-  <project name="hacker1024/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="rr_non-treble" />
-  <project name="hacker1024/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="rr_non-treble" />
+<!--  <project name="hacker1024/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="rr_non-treble" />
+  <project name="hacker1024/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="rr_non-treble" /> -->
+<!--  <project name="Xiaomi-msm8996/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="lineage-15.1-non-treble" />
+  <project name="Xiaomi-msm8996/device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="lineage-15.1-non-treble" /> -->
+  <project name="LineageOS/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_xiaomi_natrium" path="device/xiaomi/natrium" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-15.1" />
 
   <!-- Replace default toolchain with the UBER toolchain. Leave out if you don't want this. -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
